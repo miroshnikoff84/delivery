@@ -2,12 +2,18 @@
   box-sizing: border-box;
 }
 
+body {
+  padding-top: 44px;
+  font-family: "Roboto", sans-serif;
+}
+
 .container {
   max-width: 1200px;
   margin: auto;
 }
 
 .header {
+  margin-bottom: 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -56,4 +62,15 @@
 
 .button-icon {
   margin-right: 6px;
+}
+
+.promo {
+  box-shadow: 0px 7px 12px rgba(158, 158, 163, 0.1);
+  background: #FFF1B8 url(../img/promo-image.png) no-repeat top right -200px;
+  border-radius: 10px;
+  padding: 68px 70px;
+}
+
+.promo-text {
+  max-width: 500px;
 }
